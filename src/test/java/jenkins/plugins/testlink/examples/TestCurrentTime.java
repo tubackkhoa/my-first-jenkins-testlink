@@ -40,7 +40,7 @@ public class TestCurrentTime
 	{
 		Assert.assertNotNull( System.currentTimeMillis() );
 		
-		Assert.assertTrue( System.currentTimeMillis() > 0 );
+		Assert.assertTrue( System.currentTimeMillis() > 1 );
 	}
 	
 }
